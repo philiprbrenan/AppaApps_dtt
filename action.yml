@@ -9,7 +9,7 @@ runs:
   steps:
     - run: |
          sudo apt install build-essential
-         sudo cpan install -T Data::Table::Text
+         sudo cpan install -T Data::Table::Text GitHub::Crud
       shell: bash
     - run: |
          perl "-MData::Table::Text qw(:all)" "-elll 'Hello'" 
