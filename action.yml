@@ -1,0 +1,16 @@
+
+name: 'DTT'
+description: 'Install Data Table Text'
+inputs:
+  args:
+    description: 'args'
+runs:
+  using: composite
+  steps:
+    - run: |
+         sudo apt install build-essential
+         sudo cpan install -T Data::Table::Text
+      shell: bash
+    - run: |
+         perl -M"Data::Table::Text" -e"lll 'Hello'" 
+      shell: bash
