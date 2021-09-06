@@ -14,5 +14,3 @@ jobs:
         ref: 'main'
 
     - uses: philiprbrenan/dtt@main
-      with:
-        args: 'hello'
