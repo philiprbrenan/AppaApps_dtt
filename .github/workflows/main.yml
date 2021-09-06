@@ -1,0 +1,18 @@
+
+name: Test
+
+on:
+  push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: 'main'
+
+    - uses: philiprbrenan/dtt@main
+      with:
+        args: 'hello'
