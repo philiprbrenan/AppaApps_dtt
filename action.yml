@@ -12,5 +12,5 @@ runs:
          sudo cpan install -T Data::Table::Text
       shell: bash
     - run: |
-         perl -M"Data::Table::Text qw(:all)" -e"lll 'Hello'" 
+         perl "-MData::Table::Text qw(:all)" "-elll 'Hello'" 
       shell: bash
