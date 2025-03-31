@@ -13,4 +13,4 @@ jobs:
       with:
         ref: 'main'
 
-    - uses: philiprbrenan/dtt@main
+    - uses: philiprbrenan/AppaApps_dtt@main
