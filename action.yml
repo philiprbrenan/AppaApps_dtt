@@ -1,6 +1,6 @@
 
 name: 'DTT'
-description: 'Install Data Table Text'
+description: 'Install Data Table Text.'
 inputs:
   args:
     description: 'args'
