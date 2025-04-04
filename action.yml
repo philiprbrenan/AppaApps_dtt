@@ -1,5 +1,5 @@
 
-name: 'DTT'
+name: 'AppaApps_dtt'
 description: 'Install Data Table Text.'
 inputs:
   args:
